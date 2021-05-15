@@ -1,0 +1,15 @@
+from selenium import webdriver
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html")
+messageField = driver.find_element_by_xpath('//*[@id="user-message"]')
+messageField.send_keys("Hello This is My First Python Selenium Project")
+showMessageButton = driver.find_element_by_xpath('//*[@id="get-input"]/button')
+showMessageButton.click()
+
+aValueField = driver.find_element_by_xpath('//*[@id="sum1"]')
+aValueField.send_keys("16")
+bValueField = driver.find_element_by_xpath('//*[@id="sum2"]')
+bValueField.send_keys("5")
+getTotalButton = driver.find_element_by_xpath('//*[@id="gettotal"]/button')
+getTotalButton.click()
