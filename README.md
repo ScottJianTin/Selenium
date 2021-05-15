@@ -1,1 +1,2 @@
-# Selenium
+# Selenium-Webdriver
+Selenium is a free (open-source) automated testing framework to automate web browser interaction. It is primarily used to write scripts for actions users might take on your website, testing site functionality much faster than you could by hand. A short Selenium test might confirm that the browser can load a page at all, while a more complex test could automate an entire journey from log-in to a shopping cart.
